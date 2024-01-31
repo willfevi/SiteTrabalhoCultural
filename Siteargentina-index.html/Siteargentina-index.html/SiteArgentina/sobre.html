@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Argentina</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $('.nav-link').click(function (event) {
+          event.preventDefault()
+
+          var linkId = $(this).attr('id')
+          switch (linkId) {
+            case 'link-culinaria':
+              window.location.href = 'culinaria.html'
+              break
+            case 'link-esporte':
+              window.location.href = 'esporte.html'
+              break
+            case 'link-cultura':
+              window.location.href = 'cultura.html'
+              break
+            case 'link-index':
+              window.location.href = 'index.html'
+              break
+          }
+        })
+      })
+    </script>
+  </head>
+  <body>
+    <header>
+      <nav
+        class="navbar navbar-expand-lg navbar-dark custom-header bg-secondary"
+      >
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            Argentina
+            <img
+              src="imgs/bandeira_argentina.png"
+              alt="Bandeira da Argentina"
+              style="width: 30px"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto" style="margin-left: 200px">
+              <li class="nav-item">
+                <a id="link-index" class="nav-link" href="#">Início</a>
+              </li>
+              <li class="nav-item">
+                <a id="link-culinaria" class="nav-link" href="#">Culinária</a>
+              </li>
+              <li class="nav-item">
+                <a id="link-esporte" class="nav-link" href="#">Esporte</a>
+              </li>
+              <li class="nav-item">
+                <a id="link-cultura" class="nav-link" href="#">Cultura</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="bg-warning py-4"></div>
+            <h2 class="text-left" style="margin-top: 15px">
+              Sobre a Argentina:
+            </h2>
+          </div>
+        </div>
+        <div class="col-md-6 d-flex align-items-center">
+          <p class="text" style="max-width: 988px; width: 100%" !important>
+            A Argentina, cujo nome oficial é República Argentina, é um país
+            localizado no sul da América do Sul, o maior depois do Brasil. Está
+            entre os dez maiores países do mundo. Em termos populacionais, é o
+            terceiro país mais populoso da América do Sul, ficando atrás do
+            Brasil e da Colômbia. É banhado pelo Oceano Atlântico e faz
+            fronteira com Bolívia, Brasil, Chile, Paraguai e Uruguai. Paraná,
+            Santa Catarina e Rio Grande do Sul são os estados brasileiros que
+            fazem fronteira com o país. Curiosamente, o nome Argentina surge do
+            latim argentum, que significa “prata”. Isso porque, segundo a lenda,
+            a Argentina seria rica nesse metal.
+          </p>
+        </div>
+        <div class="row mt-4 content-row">
+          <div class="col-md-6">
+            <div class="image-wrapper">
+              <img
+                src="imgs/img_azul.png"
+                alt="Imagem Azul"
+                class="img-fluid background-image"
+              />
+              <div class="foreground-image">
+                <img
+                  src="imgs/img_capital.png"
+                  alt="Buenos aires"
+                  class="img-fluid foreground-image"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-4">
+          <div class="col-md-12">
+            <div class="bg-warning py-4" style="margin-top: 30px"></div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="bg-warning py-4"></div>
+            <h2 class="text-center" style="margin-top: 15px">Culinária</h2>
+          </div>
+        </div>
+        <div class="row mt-4 content-row">
+          <div class="col-md-6">
+            <div class="image-wrapper">
+              <img
+                src="imgs/img_azul.png"
+                alt="Imagem Azul"
+                class="img-fluid background-image"
+              />
+              <div class="foreground-image">
+                <img
+                  src="imgs/bife_chorizo.png"
+                  alt="Bife chorizo"
+                  class="img-fluid foreground-image"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 d-flex align-items-center">
+            <p class="text">
+              A história da culinária argentina é rica e diversificada. Como uma
+              terra que sofreu imigração extensiva por muitos anos, o país se
+              beneficiou de inúmeras influências alimentares. Como é a
+              gastronomia argentina? O país é conhecido no mundo todo pela
+              qualidade de suas carnes. E não por acaso, a maioria das comidas
+              típicas da Argentina é rica em proteína. Além de massas como
+              empanadas e pizzas, o país tem várias sobremesas como
+              protagonistas, como o alfajor e também o famoso dulce de leche.
+            </p>
+          </div>
+        </div>
+        <div class="row mt-4">
+          <div class="col-md-12">
+            <div class="bg-warning py-4" style="margin-top: 30px"></div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="bg-warning py-4"></div>
+            <h2 class="text-center" style="margin-top: 15px">Esporte</h2>
+          </div>
+        </div>
+        <div class="row mt-4 content-row">
+          <div class="col-md-6">
+            <div class="image-wrapper">
+              <img
+                src="imgs/img_azul.png"
+                alt="Imagem Azul"
+                class="img-fluid background-image"
+              />
+              <div class="foreground-image">
+                <img
+                  src="imgs/img_selecao.png"
+                  alt="Selecao"
+                  class="img-fluid foreground-image"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 d-flex align-items-center">
+            <p class="text">
+              Assim como no Brasil, o futebol é mais que um esporte, é uma
+              paixão nacional e faz parte da cultura. O esporte é praticado no
+              país inteiro e por todas as classes sociais e idades. Na argentina
+              há diversos times por todo o país e a maior rivalidade é a dos
+              clubes Boca Juniors x River Plate, considerado o maior clássico
+              argentino e um dos maiores do mundo.Atualmente, a Argentina é tida
+              como uma potência do tênis mundial, tendo um grande número de
+              tenistas famosos entre o Top 100 da ATP. O país ganhou três Copa
+              do Mundo de Tênis (1980, 2002, 2007) e quatro medalhas olímpicas.
+              Na Copa Davis disputou a final em três ocasiões (1981, 2006,
+              2008).
+            </p>
+          </div>
+        </div>
+        <div class="row mt-4">
+          <div class="col-md-12">
+            <div class="bg-warning py-4" style="margin-top: 30px"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col-md-12">
+          <div class="bg-warning py-4" style="margin-top: 30px"></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="bg-warning py-4"></div>
+          <h2 class="text-center" style="margin-top: 15px">Arte</h2>
+        </div>
+      </div>
+      <div class="row mt-4 content-row">
+        <div class="col-md-6">
+          <div class="image-wrapper">
+            <img
+              src="imgs/img_azul.png"
+              alt="Imagem Azul"
+              class="img-fluid background-image"
+            />
+            <div class="foreground-image">
+              <img
+                src="imgs/img_tango.png"
+                alt="arte"
+                class="img-fluid foreground-image"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 d-flex align-items-center">
+          <p class="text">
+            Apesar de a partir dos anos 50 a imigração ter diminuído em
+            decorrência de regras de imigração que foram implementadas, a
+            Argentina é um país de imigrantes. Por esse motivo, sua cultura
+            revela características, costumes e estilos de vida levados pelos
+            imigrantes europeus, especialmente espanhóis e italianos. O tango é
+            um dos principais símbolos da Argentina, e é considerado um
+            patrimônio mundial. Essa dança sensual é uma manifestação artística
+            que é uma verdadeira marca dos argentinos, sendo mais uma forma de
+            atrair pessoas de todo o mundo para o país. Além do tango, são
+            também patrimônios mundiais: Cova das Mãos, uma caverna famosa por
+            ter várias mãos pintadas por indígenas no seu interior.
+            Ischigualasto e Talampaya, reservas naturais que são sítios
+            arqueológicos. Maçã e Estâncias Jesuítas, imponentes construções
+            feitas para os jesuítas onde há a universidade, a igreja e casas de
+            habitação. São os principais pontos turísticos de Córdoba, a segunda
+            maior cidade argentina em termos populacionais. Missões Jesuítas
+            Guaranis, ruínas conservadas das construções feitas por alturas das
+            missões dos jesuítas em locais habitados por guaranis. Parque
+            Nacional do Iguaçu, dois terços desse parque pertencem à Argentina.
+            Parque Nacional Los Glaciares é um dos maiores parques do país. Essa
+            paisagem natural de montanhas e gelo foi considerada patrimônio pela
+            Unesco em 1981. Península Valdés, localizado na Patagônia, é repleta
+            de baleias, focas e outros animais marinhos e aves de migração.
+            Qhapaq Nan, que significa “caminho principal”, é uma rota que tem
+            mais de 30 mil quilômetros de extensão e mais de 2 mil anos.
+            Quebrada de Humahuaca, um vale isolado e cuja habitação remonta há
+            mais de 10 mil anos. Fileteado Portenho, um estilo de arte
+            decorativa, uma pintura típica de Buenos Aires que utiliza espirais
+            e cores fortes.
+          </p>
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col-md-12">
+          <div class="bg-warning py-4" style="margin-top: 30px"></div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer bg-secondary">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col d-flex align-items-center">
+            <h5 style="margin: 10px">Argentina</h5>
+            <img
+              src="imgs/bandeira_argentina.png"
+              alt="Bandeira"
+              class="ml-auto mr-3"
+              style="width: 30px"
+            />
+          </div>
+
+          <div class="col-auto">
+            <a href="#"><i class="fab fa-whatsapp fa-lg"></i></a>
+            <a href="#"><i class="fab fa-instagram fa-lg"></i></a>
+            <a href="#"><i class="fab fa-facebook fa-lg"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Argentina</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $('.nav-link').click(function (event) {
+          event.preventDefault()
+
+          var linkId = $(this).attr('id')
+          switch (linkId) {
+            case 'link-culinaria':
+              window.location.href = 'culinaria.html'
+              break
+            case 'link-esporte':
+              window.location.href = 'esporte.html'
+              break
+            case 'link-cultura':
+              window.location.href = 'cultura.html'
+              break
+            case 'link-sobre':
+              window.location.href = 'sobre.html'
+              break
+          }
+        })
+      })
+      $(document).ready(function () {
+        $('.btn-primary').click(function (event) {
+          event.preventDefault()
+
+          var linkId = $(this).attr('id')
+          switch (linkId) {
+            case 'link-culinaria':
+              window.location.href = 'culinaria.html'
+              break
+            case 'link-esporte':
+              window.location.href = 'esporte.html'
+              break
+            case 'link-cultura':
+              window.location.href = 'cultura.html'
+              break
+            case 'link-sobre':
+              window.location.href = 'sobre.html'
+              break
+          }
+        })
+      })
+    </script>
+
+    <style scoped>
+      .custom-header {
+        background-color: #f8f9fa;
+      }
+
+      .custom-header .navbar-brand {
+        font-weight: bold;
+        color: #fff;
+      }
+
+      .custom-header .navbar-nav .nav-link {
+        margin-right: 10px;
+      }
+
+      .card {
+        border: none;
+      }
+
+      .card:hover {
+        border: none;
+      }
+
+      .argentina-banner {
+        background-color: #007bff;
+        color: #fff;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+      }
+
+      .argentina-banner h1 {
+        font-size: 36px;
+        font-weight: bold;
+        margin-right: 20px;
+      }
+
+      .argentina-banner img {
+        width: 30px;
+        margin-right: 10px;
+      }
+
+      .footer {
+        background-color: #f8f9fa;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        color: #fff;
+      }
+
+      .footer a {
+        color: #fff;
+        margin-right: 10px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <nav
+        class="navbar navbar-expand-lg navbar-dark custom-header bg-secondary"
+      >
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            Argentina
+            <img
+              src="imgs/bandeira_argentina.png"
+              alt="Bandeira da Argentina"
+              style="width: 30px"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto" style="margin-left: 200px">
+              <li class="nav-item">
+                <a id="link-culinaria" class="nav-link" href="#">Culinária</a>
+              </li>
+              <li class="nav-item">
+                <a id="link-esporte" class="nav-link" href="#">Esporte</a>
+              </li>
+              <li class="nav-item">
+                <a id="link-cultura" class="nav-link" href="#">Cultura</a>
+              </li>
+              <li class="nav-item">
+                <a id="link-sobre" class="nav-link" href="#">Sobre</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="argentina-banner" style="height: 250px">
+        <h1>Argentina</h1>
+        <img
+          src="imgs/bandeira_argentina.png"
+          alt="Argentina"
+          style="width: 20%"
+        />
+      </div>
+
+      <h2 style="font-family: Georgia, 'Times New Roman', Times, serif">
+        Venha conhecer mais sobre a Argentina :
+      </h2>
+      <div class="cards">
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-sobre">Sobre</h5>
+                <p class="sobre-text">
+                  Explore a rica cultura argentina, com sua vibrante cena
+                  artística, música contagiante e danças apaixonantes. Descubra
+                  a hospitalidade dos argentinos, sua história fascinante e suas
+                  paisagens deslumbrantes, em uma viagem inesquecível pelo
+                  coração da América do Sul.
+                </p>
+                <a id="link-sobre" class="btn btn-primary" href="#"
+                  >Saiba mais</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-culinaria">Culinária</h5>
+                <p class="culinaria-text">
+                  Descubra os sabores autênticos da culinária argentina, com sua
+                  mistura única de influências europeias e latino-americanas.
+                  Deixe-se seduzir pelos deliciosos bifes, empanadas crocantes e
+                  vinhos requintados, enquanto explora a rica gastronomia deste
+                  país incrível.
+                </p>
+                <a id="link-culinaria" href="#" class="btn btn-primary"
+                  >Saiba mais</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-cultura">Cultura</h5>
+                <p class="cultura-text">
+                  Venha mergulhar na rica cultura argentina, conhecendo seus
+                  museus fascinantes, monumentos históricos e a vibrante cena de
+                  teatro e cinema. Descubra as tradições únicas deste país,
+                  desde o tango até o mate, e deixe-se seduzir pela arte e
+                  cultura deste destino imperdível na América Latina.
+                </p>
+                <a id="link-cultura" href="#" class="btn btn-primary"
+                  >Saiba mais</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-esporte">Esporte</h5>
+                <p class="esporte-text">
+                  Venha explorar a paixão pelo esporte argentino, mergulhando na
+                  história do futebol e descobrindo as emoções das partidas de
+                  polo. Deixe-se encantar pela energia e habilidade dos atletas
+                  argentinos e experimente um novo mundo esportivo cheio de
+                  cultura e tradição.
+                </p>
+                <a id="link-esporte" href="#" class="btn btn-primary"
+                  >Saiba mais</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer bg-secondary">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col d-flex align-items-center">
+            <h5 style="margin: 10px">Argentina</h5>
+            <img
+              src="imgs/bandeira_argentina.png"
+              alt="Bandeira"
+              class="ml-auto mr-3"
+              style="width: 30px"
+            />
+          </div>
+
+          <div class="col-auto">
+            <i class="fab fa-whatsapp fa-lg" style="margin: 10px"></i>
+            <i class="fab fa-instagram fa-lg" style="margin: 10px"></i>
+            <i class="fab fa-facebook fa-lg" style="margin: 10px"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

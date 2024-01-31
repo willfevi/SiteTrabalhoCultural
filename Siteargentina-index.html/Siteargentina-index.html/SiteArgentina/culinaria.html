@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Argentina</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $('.nav-link').click(function (event) {
+          event.preventDefault()
+
+          var linkId = $(this).attr('id')
+          switch (linkId) {
+            case 'link-index':
+              window.location.href = 'index.html'
+              break
+            case 'link-esporte':
+              window.location.href = 'esporte.html'
+              break
+            case 'link-cultura':
+              window.location.href = 'cultura.html'
+              break
+            case 'link-sobre':
+              window.location.href = 'sobre.html'
+              break
+          }
+        })
+      })
+    </script>
+  </head>
+  <body>
+    <header>
+      <nav
+        class="navbar navbar-expand-lg navbar-dark custom-header bg-secondary"
+      >
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            Argentina
+            <img
+              src="imgs/bandeira_argentina.png"
+              alt="Bandeira da Argentina"
+              style="width: 30px"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto" style="margin-left: 200px">
+              <li class="nav-item">
+                <a id="link-index" class="nav-link" href="#">Início</a>
+              </li>
+              <li class="nav-item">
+                <a id="link-esporte" class="nav-link" href="#">Esporte</a>
+              </li>
+              <li class="nav-item">
+                <a id="link-cultura" class="nav-link" href="#">Cultura</a>
+              </li>
+              <li class="nav-item">
+                <a id="link-sobre" class="nav-link" href="#">Sobre</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="bg-warning py-4"></div>
+            <h2 class="text-center" style="margin-top: 15px">
+              Bife de chorizo
+            </h2>
+          </div>
+        </div>
+        <div class="row mt-4 content-row">
+          <div class="col-md-6">
+            <div class="image-wrapper">
+              <img
+                src="imgs/img_azul.png"
+                alt="Imagem Azul"
+                class="img-fluid background-image"
+              />
+              <div class="foreground-image">
+                <img
+                  src="imgs/bife_chorizo.png"
+                  alt="Bife chorizo"
+                  class="img-fluid foreground-image"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 d-flex align-items-center">
+            <p class="text">
+              O bife de chorizo é um corte argentino que consagrou a carne do
+              país como uma das melhores do mundo. A maciez e o sabor marcantes
+              da carne são os seus principais atributos, tornando o bife uma
+              escolha perfeita para churrascos inesquecíveis. O bife de chorizo
+              é um corte de origem argentina reconhecido como um dos principais
+              das tradicionais parrillas. É um dos pratos mais populares em
+              Buenos Aires e nos restaurantes argentinos. E, apesar de por aqui
+              ter ganhado mais destaque no sul a princípio, hoje sua fama já
+              chegou aos quatro cantos do país. Fora do Brasil e das terras
+              hermanas, o chorizo recebe os nomes de New York Steak e Striploin.
+            </p>
+          </div>
+        </div>
+        <div class="row mt-4">
+          <div class="col-md-12">
+            <div class="bg-warning py-4" style="margin-top: 30px"></div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="bg-warning py-4"></div>
+            <h2 class="text-center" style="margin-top: 15px">Choripan</h2>
+          </div>
+        </div>
+        <div class="row mt-4 content-row">
+          <div class="col-md-6">
+            <div class="image-wrapper">
+              <img
+                src="imgs/img_azul.png"
+                alt="Imagem Azul"
+                class="img-fluid background-image"
+              />
+              <div class="foreground-image">
+                <img
+                  src="imgs/img_choripan.png"
+                  alt="Bife chorizo"
+                  class="img-fluid foreground-image"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 d-flex align-items-center">
+            <p class="text">
+              Típico na Argentina e no Uruguai, o nome desse sanduíche vem da
+              junção de chorizo (linguiça) e pan (pão). Também é chamado apenas
+              de “chori”. A graça está em assar a linguiça fresca (nem curada,
+              nem defumada) na churrasqueira e depois servi-la no pão com molho
+              chimichurri.Pode-se abrir a linguiça ao meio ou usar só o recheio,
+              esmagado sobre o pão. O molho chimichurri leva salsinha, alho e
+              azeite, entre outros ingredientes. O choripán nasceu entre os
+              gaúchos, às margens do Rio da Prata, daí a dupla nacionalidade: é
+              parte argentino, parte uruguaio.
+            </p>
+          </div>
+        </div>
+        <div class="row mt-4">
+          <div class="col-md-12">
+            <div class="bg-warning py-4" style="margin-top: 30px"></div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="bg-warning py-4"></div>
+            <h2 class="text-center" style="margin-top: 15px">Empanadas</h2>
+          </div>
+        </div>
+        <div class="row mt-4 content-row">
+          <div class="col-md-6">
+            <div class="image-wrapper">
+              <img
+                src="imgs/img_azul.png"
+                alt="Imagem Azul"
+                class="img-fluid background-image"
+              />
+              <div class="foreground-image">
+                <img
+                  src="imgs/img_empanadas.png"
+                  alt="Bife chorizo"
+                  class="img-fluid foreground-image"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 d-flex align-items-center">
+            <p class="text">
+              A empanada argentina é uma receita trazida pelos espanhóis durante
+              a colonização, que veio da Europa, mas que sofreu com alguns
+              incrementos extras. Nada mais é que uma empada com uma massa
+              semelhante a do pão. Ela é bem douradinha e feita no forno, tendo
+              poucas calorias. Para esta receita, será necessário que você
+              possua poucos ingredientes em casa, sendo a carne moída um dos
+              principais componentes para o preparo do recheio, rica em
+              proteínas e sustenta demais de tão nutritiva que é.
+            </p>
+          </div>
+        </div>
+        <div class="row mt-4">
+          <div class="col-md-12">
+            <div class="bg-warning py-4" style="margin-top: 30px"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer bg-secondary">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col d-flex align-items-center">
+            <h5 style="margin: 10px">Argentina</h5>
+            <img
+              src="imgs/bandeira_argentina.png"
+              alt="Bandeira"
+              class="ml-auto mr-3"
+              style="width: 30px"
+            />
+          </div>
+
+          <div class="col-auto">
+            <a href="#"><i class="fab fa-whatsapp fa-lg"></i></a>
+            <a href="#"><i class="fab fa-instagram fa-lg"></i></a>
+            <a href="#"><i class="fab fa-facebook fa-lg"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
